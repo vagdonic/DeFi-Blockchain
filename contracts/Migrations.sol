@@ -8,7 +8,7 @@ contract Migrations {
   modifier restricted() {
     require(
       msg.sender == owner,
-      "This function is restricted to the contracts owner"
+      "This function is restricted to the contract'sdjnsdjnsjdnsdjnsdjnsdjnjsdnjs owner"
     );
     _;
   }
