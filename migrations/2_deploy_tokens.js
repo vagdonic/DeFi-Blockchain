@@ -1,4 +1,4 @@
-const myToken = artifacts.require("myToken1")
+const myToken = artifacts.require("myToken")
 
 module.exports = async function (deployer, network, accounts){
     await deployer.deploy(myToken)
